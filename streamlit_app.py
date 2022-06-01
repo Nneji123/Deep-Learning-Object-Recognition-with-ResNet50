@@ -14,9 +14,10 @@ from tensorflow.keras.applications import resnet50
 model = load_model('object_classifier.h5', compile=False)
 
 st.image('logo.png')
-st.markdown("## Object Identifier App with Deep Learning")
+st.markdown("## Object Classifier App with Deep Learning")
 st.markdown("""
-This app uses Deep learning (ResNet50) libraries namely keras to identify objects from images like mouse, keyboard and even animals.
+This app uses Deep learning (ResNet50) libraries namely keras to identify objects from images.
+
 ResNet-50 is a convolutional neural network that is 50 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals.
 
 **Made by Ifeanyi Nneji**
@@ -25,10 +26,9 @@ ResNet-50 is a convolutional neural network that is 50 layers deep. You can load
 
 #Name of Classes
 
-st.markdown("Upload an image of the object")
 
 #Uploading the dog image
-object_image = st.file_uploader("Upload an image...", type=['png','jpg','webp'])
+object_image = st.file_uploader("Upload an image...", type=['png','jpg','webp','jpeg'])
 submit = st.button('Predict')
 #On predict button click
 if submit:
@@ -48,7 +48,7 @@ if submit:
 
         # Displaying the image
         #st.image(object_image, channels="BGR")
-        st.text('This is an image of: ')
+        st.markdown("""This is an image of: """)
 
         for imagenet_id, name, likelihood in predicted_classes[0]:
             st.text('- {}: {:.2f} likelihood'.format(name,likelihood))
