@@ -5,6 +5,7 @@ A Streamlit app that uses the ResNet50 pre-trained model to classify objects fro
 [![Framework](https://img.shields.io/badge/framework-Streamlit-brightred.svg?style=flat)](http://www.streamlit.com)
 ![hosted](https://img.shields.io/badge/Streamlit-Cloud-DC143C?style=flat&logo=streamlit&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
+![](https://img.shields.io/github/repo-size/Nneji123/Deep-Learning-Object-Recognition-with-ResNet50)
 
 ## About
 A residual neural network (ResNet) is an artificial neural network (ANN). It is a gateless or open-gated variant of the HighwayNet, the first working very deep feedforward neural network with hundreds of layers, much deeper than previous neural networks.
