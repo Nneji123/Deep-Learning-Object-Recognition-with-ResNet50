@@ -1,8 +1,8 @@
 ## Deep Learning Object Recognition with ResNet50
 A Streamlit app that uses the ResNet50 pre-trained model to classify objects from images.
 
-[![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/framework-Streamlit-brightred.svg?style=flat)](http://www.streamlit.com)
+[![Language](https://img.shields.io/badge/Python-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![Framework](https://img.shields.io/badge/Streamlit-darkred.svg?style=flat&logo=streamlit&logoColor=white )](http://www.streamlit.com)
 ![hosted](https://img.shields.io/badge/Streamlit-Cloud-DC143C?style=flat&logo=streamlit&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
 ![](https://img.shields.io/github/repo-size/Nneji123/Deep-Learning-Object-Recognition-with-ResNet50)
